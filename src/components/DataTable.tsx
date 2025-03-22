@@ -94,6 +94,7 @@ const DataTable = () => {
     }
 
     setFilteredData(newData);
+    setSortConfig({ key: "id", direction: "asc" });
   };
 
   const handleSort = (key: string) => {
